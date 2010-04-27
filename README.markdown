@@ -8,4 +8,4 @@ Cart before changing its name to Spree.
 Refer to the [Spree ecommerce project page](http://spreecommerce.com) 
 to learn more.
 
-This demo is maintained by [End point](http://www.endpoint.com/).
+This demo is maintained by [End Point](http://www.endpoint.com/).

@@ -1,0 +1,30 @@
+[submodule "vendor/extensions/ckeditor"]
+	path = vendor/extensions/ckeditor
+	url = git://github.com/davidnorth/spree-ckeditor.git
+[submodule "vendor/extensions/static_content"]
+	path = vendor/extensions/static_content
+	url = git://github.com/stephp/spree-static-content.git
+[submodule "vendor/extensions/sitemaps"]
+	path = vendor/extensions/sitemaps
+	url = git://github.com/stephp/spree-sitemaps.git
+[submodule "vendor/extensions/google_base"]
+	path = vendor/extensions/google_base
+	url = git://github.com/stephp/spree-google-base.git
+[submodule "vendor/extensions/product_reviews_ratings"]
+	path = vendor/extensions/product_reviews_ratings
+	url = git://github.com/stephp/spree-product-reviews-ratings.git
+[submodule "vendor/extensions/bucket_shipping"]
+	path = vendor/extensions/bucket_shipping
+	url = git://github.com/stephp/spree-bucket-shipping.git
+[submodule "vendor/extensions/active_shipping"]
+	path = vendor/extensions/active_shipping
+	url = git://github.com/railsdog/spree-active-shipping.git
+[submodule "vendor/extensions/quick_polls"]
+	path = vendor/extensions/quick_polls
+	url = git://github.com/stephp/spree-quick-polls.git
+[submodule "vendor/extensions/product_options"]
+	path = vendor/extensions/product_options
+	url = git://github.com/stephp/spree-product-options.git
+[submodule "vendor/extensions/faq"]
+	path = vendor/extensions/faq
+	url = git://github.com/stephp/spree-faq.git

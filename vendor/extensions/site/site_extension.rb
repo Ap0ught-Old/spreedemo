@@ -6,12 +6,6 @@ class SiteExtension < Spree::Extension
   description "Describe your extension here"
   url "http://yourwebsite.com/site"
 
-  # Please use site/config/routes.rb instead for extension routes.
-
-  # def self.require_gems(config)
-  #   config.gem "gemname-goes-here", :version => '1.2.3'
-  # end
-  
   def activate
 
     # make your helper avaliable in all views

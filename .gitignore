@@ -2,3 +2,6 @@ db/*
 log/
 config/database.yml
 tmp/
+public/images/*
+public/stylesheets/*
+public/javascripts/*

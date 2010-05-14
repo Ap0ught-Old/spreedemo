@@ -22,7 +22,7 @@ files.each_with_index do |f, i|
   t[col].read(f)
   o << 'ul#language-bar a#' + File.basename(f, '.png').downcase + ' { background-position: -' + (col*width).to_s + 'px -' + (row*height).to_s + 'px; }'
   row+=1
-  if i%dimension1 == dimension1-1
+  if i%dimension1 == dimension1-1 || f == files.last
     row = 0
     b = t[col].append(true)
     b.write("test#{col}.png")

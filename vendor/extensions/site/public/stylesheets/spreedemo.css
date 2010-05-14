@@ -1,1 +1,13 @@
-body { background: #000; }
+body { /* background: url(/images/bg.jpg) repeat; */ background: #13101C; font-family: verdana,arial,helvetica; color: #D1C89C; }
+body.two-col #wrapper, div#wrapper { background: none; }
+div#content { background: #060115; -moz-border-radius: 10px; -webkit-border-radius: 10px; margin-bottom: 40px; padding: 20px 0px;  } /* Add some opacity */
+body.one-col #content, body.two-col #content { width: 100%; color: #FFF; }
+#header a, a { color: #A99ECB; text-decoration: none; font-size: 1.1em; }
+hr.space { color: #747D82; display: none; }
+.pagination { clear: both; }
+h1, h2, h3, p { color: #D1C89C; }
+
+div.product-listing div.oproduct { margin: 10px; padding: 5px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border: 1px solid #747D82; background: #FFF; float: left; }
+div.product-listing div.product { width: 170px; height: 170px; padding: 10px; background: #FFF; -moz-border-radius: 10px; margin: 5px; text-align: center; position: relative; color: #000; }
+  div.product-listing a.info { display: none; clear: both; position: absolute; text-decoration: none; bottom: 10px; left: 10px; color: #000; }
+  div.product-listing a.image img { width: 100%; } 

@@ -1,0 +1,8 @@
+<ul id="language-bar">
+  <li><strong><%= t('change_language') %></strong></li>
+  <% AVAILABLE_LOCALES.each do |locale| -%>
+    <li>
+      <%= link_to '', set_locale_path(:locale => locale[0]), { :id => locale[0].split('-').last.downcase, :title => locale[1] } %>
+    </li>
+  <% end -%>
+</ul>

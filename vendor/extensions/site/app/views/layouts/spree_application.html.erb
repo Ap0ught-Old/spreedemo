@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<% hook :inside_head do %>
+  <%= render :partial => 'shared/head'%>
+<% end %>
+</head>
+<body>
+  <div id="header">
+    <div class="wrapper">
+      <%= logo %>
+      <%= render 'shared/nav_bar' %>
+      my account / product navigation / pages / search / cart
+    </div>
+  </div>
+  <div id="intro">
+    <div class="wrapper">
+      <h2>Welcome!</h2>
+      <h3>
+        Welcome to SpreeDemo.com. This demo is powered by <a href="http://spreecommerce.com">Spree</a> and developed and maintained by <a href="http://www.endpoint.com">End Point</a>.
+        This demo reveals more about Spree: it includes several extensions developed by members of the Spree community and demontrates and example design implementation in Spree.
+      </h3> 
+    </div>
+  </div>
+    
+  <div id="content">
+    <%= breadcrumbs(@taxon) if @taxon %>
+    <% if self.notice %>
+    <div class="flash notice"><%= self.notice %></div>
+    <% end %>
+    <% if flash[:error] %>
+    <div class="flash errors"><%= flash[:error] %></div>
+    <% end %>
+    <%= yield %>
+  </div>
+
+  <div id="footer">
+    <div class="wrapper">
+      <div id="pages">
+        list pages here
+      </div>
+      <div id="credits">
+        <%= render :partial => 'shared/footer'%>
+      </div>
+      <div id="blurb">
+      </div>
+      <div id="other">
+      </div>
+    </div>
+  </div>
+</body>
+</html>

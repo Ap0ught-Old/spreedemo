@@ -1,12 +1,11 @@
 <div id="uinfo">
 <% if current_user -%>
-  <%= link_to t('my_account'), user_path(current_user) %>
-  <%= link_to t('logout'), logout_path %>
+  <%= link_to t('my_account'), user_path(current_user) %> | <%= link_to t('logout'), logout_path %>
 <% else %>
   <%= link_to t('log_in'), login_path %>
 <% end -%>
 <% if store_menu? %>
-  <%= link_to_cart %>
+  | <%= link_to_cart %>
 <% end %>
 </div>
 <div id="navigation">

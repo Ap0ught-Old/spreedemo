@@ -4,7 +4,7 @@ div.wrapper { width: 950px; margin: 0px auto; padding: 20px 0px; }
 div.clear { clear: both; }
 input { border: 2px solid #FFF; }
 
-div#header { width: 100%; background: url(/images/bg.jpg); border-bottom: 1px solid #000; }
+div#header { width: 100%; background: url(/images/bg.jpg); border-bottom: 1px solid #000; color: #FFF; }
   div#header div#logo { float: left; width: 30%; }
   div#header div#nav { float: right; width: 68%; text-align: right; }
   div#header a { color: #FFF; text-decoration: none; }
@@ -37,4 +37,5 @@ div.product { float: left; border: 5px solid #FFF; position: relative; height: 1
 div#main-image img { border: 5px solid #FFF; }
 
 /* Cart */
-form#updatecart, form#checkout_form_address, form#checkout_form_delivery, form#checkout_form_payment, form#checkout_form_confirm { background: #FFF; padding: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+div#content form { background: #FFF; padding: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+div#content form input[type="text"], div#content form input[type="password"] { -moz-border-radius: 5px; -webkit-border-radius: 5px; border: 2px solid #D5F3EA; padding: 3px; }  

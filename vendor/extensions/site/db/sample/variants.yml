@@ -1,0 +1,18 @@
+variant_1:
+  product: strawberry_leaves
+  price: 10.00
+  cost_price: 5.00
+  count_on_hand: 10
+  is_master: true
+variant_2:
+  product: lilies
+  price: 10.00
+  cost_price: 5.00
+  count_on_hand: 10
+  is_master: true
+variant_3:
+  product: strawberry_leaves_2
+  price: 10.00
+  cost_price: 5.00
+  count_on_hand: 10
+  is_master: true

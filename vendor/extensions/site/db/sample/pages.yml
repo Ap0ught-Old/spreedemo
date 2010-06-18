@@ -6,7 +6,7 @@ page_1:
   created_at: <%= Time.zone.now.to_s(:db) %>
 page_2:
   title: Spree Extensions
-  body: "This is the extension page."
+  body: '<p>Spree extensions are a large part of what makes Spree a success by providing community members to contribute functionality in the form of an extension, or a custom component to attach onto the Spree core. Spree extensions are available <a href="http://ext.spreecommerce.com/">here</a>.</p><p>This Spree demo contains the following extension:</p><ul><li>active_shipping:</li><li>bucket_shipping:</li><li>ckeditor:</li><li>faq:</li><li>google_base:</li><li>product_options:</li><li>product_reviews_ratings:</li><li>quick_polls:</li><li>sitemaps:</li><li>static_content:</li></ul>'
   meta_description: "This is the meta description."
   slug: "/spree-extensions"
   created_at: <%= Time.zone.now.to_s(:db) %>

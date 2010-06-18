@@ -50,6 +50,7 @@
           <td width="20%" valign="top">
             <p><a href="/about">About</a></p>
             <p><a href="/spree-extensions">Spree Extensions</a></p>
+            <p><a href="/sitemap">Site Map</a></p>
           </td>
           <td width="20%" valign="top">
             <%= render 'shared/language_bar' if Spree::Config[:allow_locale_switching] %>
@@ -63,7 +64,6 @@
       <div class="clear"></div>
     </div>
   </div>
-  <%= javascript_include_tag 'jquery.corner.js' %>
   <%= javascript_include_tag 'spreedemo' %>
   <%= render 'shared/google_analytics' %>
 </body>

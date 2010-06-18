@@ -4,15 +4,165 @@ variant_1:
   cost_price: 5.00
   count_on_hand: 10
   is_master: true
+strawberry_small:
+  product: strawberry_leaves
+  option_values: small
+  price: 5.00
+  cost_price: 2.50
+  count_on_hand: 10
+strawberry_medium:
+  product: strawberry_leaves
+  option_values: medium
+  price: 10.00
+  cost_price: 5.00
+  count_on_hand: 10
+strawberry_large:
+  product: strawberry_leaves
+  option_values: large
+  price: 20.00
+  cost_price: 10.00
+  count_on_hand: 10
 variant_2:
   product: lilies
   price: 10.00
   cost_price: 5.00
   count_on_hand: 10
   is_master: true
+lilies_small:
+  product: lilies
+  option_values: small
+  price: 5.00
+  cost_price: 2.50
+  count_on_hand: 10
+lilies_medium:
+  product: lilies
+  option_values: medium
+  price: 10.00
+  cost_price: 5.00
+  count_on_hand: 10
+lilies_large:
+  product: lilies
+  option_values: large
+  price: 20.00
+  cost_price: 10.00
+  count_on_hand: 10
 variant_3:
-  product: strawberry_leaves_2
+  product: letter_r
   price: 10.00
   cost_price: 5.00
   count_on_hand: 10
   is_master: true
+letter_r_small:
+  product: letter_r
+  option_values: small
+  price: 5.00
+  cost_price: 2.50
+  count_on_hand: 10
+letter_r_medium:
+  product: letter_r
+  option_values: medium
+  price: 10.00
+  cost_price: 5.00
+  count_on_hand: 10
+letter_r_large:
+  product: letter_r
+  option_values: large
+  price: 20.00
+  cost_price: 10.00
+  count_on_hand: 10
+variant_4:
+  product: lens_flare
+  price: 10.00
+  cost_price: 5.00
+  count_on_hand: 10
+  is_master: true
+lens_flare_small:
+  product: lens_flare
+  option_values: small
+  price: 5.00
+  cost_price: 2.50
+  count_on_hand: 10
+lens_flare_large:
+  product: lens_flare
+  option_values: large
+  price: 20.00
+  cost_price: 10.00
+  count_on_hand: 10
+variant_5:
+  product: boat
+  price: 10.00
+  cost_price: 5.00
+  count_on_hand: 10
+  is_master: true
+boat_small:
+  product: boat
+  option_values: small
+  price: 5.00
+  cost_price: 2.50
+  count_on_hand: 10
+boat_large:
+  product: boat
+  option_values: large
+  price: 20.00
+  cost_price: 10.00
+  count_on_hand: 10
+variant_6:
+  product: boat_graffiti
+  price: 10.00
+  cost_price: 5.00
+  count_on_hand: 10
+  is_master: true
+boat_graffiti_small:
+  product: boat_graffiti
+  option_values: small
+  price: 5.00
+  cost_price: 2.50
+  count_on_hand: 10
+boat_graffiti_large:
+  product: boat_graffiti
+  option_values: large
+  price: 20.00
+  cost_price: 10.00
+  count_on_hand: 10
+variant_7:
+  product: crochet
+  price: 10.00
+  cost_price: 5.00
+  count_on_hand: 10
+  is_master: true
+crochet_small:
+  product: crochet
+  option_values: small
+  price: 5.00
+  cost_price: 2.50
+  count_on_hand: 10
+crochet_large:
+  product: crochet
+  option_values: large
+  price: 20.00
+  cost_price: 10.00
+  count_on_hand: 10
+variant_8:
+  product: dock_decay
+  price: 10.00
+  cost_price: 5.00
+  count_on_hand: 10
+  is_master: true
+dock_decay_large:
+  product: dock_decay
+  option_values: large
+  price: 20.00
+  cost_price: 10.00
+  count_on_hand: 10
+variant_9:
+  product: forty_nine
+  price: 10.00
+  cost_price: 5.00
+  count_on_hand: 10
+  is_master: true
+forty_nine_large:
+  product: forty_nine
+  option_values: large
+  price: 20.00
+  cost_price: 10.00
+  count_on_hand: 10

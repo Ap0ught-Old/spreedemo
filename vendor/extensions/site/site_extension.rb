@@ -7,10 +7,5 @@ class SiteExtension < Spree::Extension
   url "http://yourwebsite.com/site"
 
   def activate
-
-    # make your helper avaliable in all views
-    # Spree::BaseController.class_eval do
-    #   helper YourHelper
-    # end
   end
 end

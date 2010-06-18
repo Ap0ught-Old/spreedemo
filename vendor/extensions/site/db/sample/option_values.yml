@@ -1,0 +1,25 @@
+small:
+  name: Small
+  presentation: "5x7"
+  position: 1
+  option_type: size
+medium:
+  name: Medium
+  presentation: "8x10"
+  position: 1
+  option_type: size
+large:
+  name: Large
+  presentation: "11x14"
+  position: 1
+  option_type: size
+matte:
+  name: Matte
+  presentation: Matte
+  position: 1
+  option_type: type
+glossy:
+  name: Glossy
+  presentation: Glossy
+  position: 1
+  option_type: type

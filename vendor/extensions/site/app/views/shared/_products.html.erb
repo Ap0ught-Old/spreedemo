@@ -14,7 +14,15 @@
     <% if Spree::Config[:show_zero_stock_products] || product.has_stock? %>
       <div class="product" id="product_<%= product.id %>">
         <div class="img" id="img_<%= product.id %>"><%= link_to product_image(product), product, :class => 'image' %></div>
-        <div class="info"><%= link_to product.name, product, :class => 'info' %></div>
+        <div class="info">
+          <%= link_to product.name, product, :class => 'info' %><br />
+          <label>Available Sizes:</label>
+          <% product.variants.each do |v| -%>
+            <% v.option_values.each do |ov| -%>
+              <%= ov.presentation %><br />
+            <% end -%>
+          <% end -%>
+        </div>
       </div>
     <% end %>
   <% end %>

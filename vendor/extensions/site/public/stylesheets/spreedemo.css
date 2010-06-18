@@ -27,7 +27,7 @@ ul#language-bar li#parent:hover ul { display: block; }
 ul#language-bar li#parent a { margin: 4px 2px 0px 0px; }
 
 /* Product Nav */
-div.product { float: left; border: 5px solid #FFF; position: relative; height: 180px; width: 270px; margin-right: 35px; background: url(/images/product_bg.jpg); }
+div.product { float: left; border: 5px solid #FFF; position: relative; height: 180px; width: 270px; margin: 0px 35px 35px 0px; background: url(/images/product_bg.jpg); }
   div.product img { height: 180px; }
   div.product div.img { position: absolute; top: 0px; left: 0px; z-index: 2; }
   div.product div.info { position: absolute; top: 0px; left: 0px; z-index: 1; text-align: center; background: #FFF; }

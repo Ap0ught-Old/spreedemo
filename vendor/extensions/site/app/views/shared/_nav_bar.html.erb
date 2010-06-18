@@ -1,12 +1,12 @@
-<li>
-  <% if "products" == @current_controller && @taxon %>
-    <%= render "shared/filters" %>
-  <% else %>
-    <%= render "shared/taxonomies" %>
-  <% end %>
-</li>
-<li><%= render 'shared/search' %></li>
+<ul>
+<% if "products" == @current_controller && @taxon %>
+  <%= render "shared/filters" %>
+<% else %>
+  <%= render "shared/taxonomies" %>
+<% end %>
+<%= render 'shared/search' %>
 <%= render 'shared/login_bar' %>
 <% if store_menu? %>
   <%= render 'shared/store_menu' %>
 <% end %>
+</ul>

@@ -1,6 +1,33 @@
-div.wrapper { width: 950px; margin: 0px auto; height: 60px; padding: 20px 0px; }
+body { margin: 0px; background: #435A53; }
 
-div#header { width: 100%; background-color: #171717; }
-div#welcome { background-color: #5D5D5D; border: 1px solid #8EC7CF; }
-div#content { background: #BBBBBB; }
-div#footer { background: #5D5D5D; }
+div.wrapper { width: 950px; margin: 0px auto; padding: 20px 0px; }
+div.clear { clear: both; }
+
+div#header { width: 100%; background-color: #000000; }
+  div#header div#logo { float: left; width: 30%; }
+  div#header div#nav { float: right; width: 68%; }
+  div#header ul { list-style-type: none; }
+  div#header ul li { float: left; margin-right: 5px; }
+  div#header ul li a { color: #FFF; text-decoration: none; }
+div#intro { background-color: #435A53; border: 1px solid #272D2B; border-left: 0px; border-right: 0px;  }
+  div#intro h2 { float: left; width: 49%; color: #A5BBB4; font-size: 34px; margin-bottom: 0px; }
+  div#intro h3 { float: right; width: 49%; color: #A5BBB4; margin: 10px 0px 0px 0px; }
+  div#intro a { color: #FFF; }
+div#content { background: #A5BBB4; }
+div#footer { background: #435A53; color: #A5BBB4; clear: both; }
+  div#footer div#pages, div#footer div#credits, div#footer div#blurb, div#footer div#other { width: 24%; float: left; }
+  div#footer a { color: #FFF; }
+
+
+/* Product Nav */
+div.product { float: left; border: 5px solid #FFF; position: relative; height: 150px; width: 225px; margin-right: 50px; background: #FFF; }
+  div.product img { height: 150px; }
+  div.product div.img { position: absolute; top: 0px; left: 0px; z-index: 2; }
+  div.product div.info { position: absolute; top: 0px; left: 0px; z-index: 1; text-align: center; background: #FFF; }
+    div.product div.info a { text-decoration: none; color: #000; font-weight: bold; }
+
+/* Product */
+div#main-image img { border: 5px solid #FFF; }
+
+/* Cart */
+form#updatecart, form#checkout_form_address, form#checkout_form_delivery, form#checkout_form_payment, form#checkout_form_confirm { background: #FFF; padding: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }

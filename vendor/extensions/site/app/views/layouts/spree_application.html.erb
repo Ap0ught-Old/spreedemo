@@ -8,9 +8,13 @@
 <body>
   <div id="header">
     <div class="wrapper">
-      <%= logo %>
-      <%= render 'shared/nav_bar' %>
-      my account / product navigation / pages / search / cart
+      <div id="logo">
+        <%= logo %>
+      </div>
+      <div id="nav">
+        <%= render 'shared/nav_bar' %>
+      </div>
+      <div class="clear"></div>
     </div>
   </div>
   <div id="intro">
@@ -18,20 +22,22 @@
       <h2>Welcome!</h2>
       <h3>
         Welcome to SpreeDemo.com. This demo is powered by <a href="http://spreecommerce.com">Spree</a> and developed and maintained by <a href="http://www.endpoint.com">End Point</a>.
-        This demo reveals more about Spree: it includes several extensions developed by members of the Spree community and demontrates and example design implementation in Spree.
       </h3> 
+      <div class="clear"></div>
     </div>
   </div>
     
   <div id="content">
+    <div class="wrapper">
     <%= breadcrumbs(@taxon) if @taxon %>
-    <% if self.notice %>
+    <% if false # self.notice %>
     <div class="flash notice"><%= self.notice %></div>
     <% end %>
     <% if flash[:error] %>
     <div class="flash errors"><%= flash[:error] %></div>
     <% end %>
     <%= yield %>
+    </div>
   </div>
 
   <div id="footer">
@@ -40,13 +46,18 @@
         list pages here
       </div>
       <div id="credits">
-        <%= render :partial => 'shared/footer'%>
+        Maintained by <a href="http://www.endpoint.com/">End Point</a><br />
+        <%= t("powered_by") %> <a href="http://spreecommerce.com/">Spree</a>
       </div>
       <div id="blurb">
       </div>
       <div id="other">
+        <%= render 'shared/language_bar' if Spree::Config[:allow_locale_switching] %>
       </div>
+      <div class="clear"></div>
     </div>
   </div>
+  <%= javascript_include_tag 'spreedemo' %>
+  <%= render 'shared/google_analytics' %>
 </body>
 </html>

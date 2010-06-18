@@ -2,26 +2,33 @@ body { margin: 0px; background: #435A53; }
 
 div.wrapper { width: 950px; margin: 0px auto; padding: 20px 0px; }
 div.clear { clear: both; }
+input { border: 2px solid #FFF; }
 
-div#header { width: 100%; background-color: #000000; }
+div#header { width: 100%; background: url(/images/bg.jpg); border-bottom: 1px solid #000; }
   div#header div#logo { float: left; width: 30%; }
-  div#header div#nav { float: right; width: 68%; }
-  div#header ul { list-style-type: none; }
-  div#header ul li { float: left; margin-right: 5px; }
-  div#header ul li a { color: #FFF; text-decoration: none; }
+  div#header div#nav { float: right; width: 68%; text-align: right; }
+  div#header a { color: #FFF; text-decoration: none; }
+  div#header div#uinfo { margin-bottom: 5px; }
+  div#header div#ssearch { background: #FFF; -moz-border-radius: 5px; -webkit-border-radius: 5px; float: right; width: 200px; margin-right: 4px; }
+  div#header input#searchsubmit { float: right; background: #A5BBB4; -moz-border-radius: 5px; -webkit-border-radius: 5px; border: 2px solid #A5BBB4; }
 div#intro { background-color: #435A53; border: 1px solid #272D2B; border-left: 0px; border-right: 0px;  }
   div#intro h2 { float: left; width: 49%; color: #A5BBB4; font-size: 34px; margin-bottom: 0px; }
   div#intro h3 { float: right; width: 49%; color: #A5BBB4; margin: 10px 0px 0px 0px; }
   div#intro a { color: #FFF; }
 div#content { background: #A5BBB4; }
 div#footer { background: #435A53; color: #A5BBB4; clear: both; }
-  div#footer div#pages, div#footer div#credits, div#footer div#blurb, div#footer div#other { width: 24%; float: left; }
   div#footer a { color: #FFF; }
+  div#footer td { vertical-align: top; }
+  div#footer p { margin: 3px 0px; }
 
+ul#language-bar li#parent ul { display: none; margin: 0px; }
+ul#language-bar li#parent strong { color: #FFF; text-decoration: underline; }
+ul#language-bar li#parent:hover ul { display: block; }
+ul#language-bar li#parent a { margin: 4px 2px 0px 0px; }
 
 /* Product Nav */
-div.product { float: left; border: 5px solid #FFF; position: relative; height: 150px; width: 225px; margin-right: 50px; background: #FFF; }
-  div.product img { height: 150px; }
+div.product { float: left; border: 5px solid #FFF; position: relative; height: 180px; width: 270px; margin-right: 35px; background: url(/images/product_bg.jpg); }
+  div.product img { height: 180px; }
   div.product div.img { position: absolute; top: 0px; left: 0px; z-index: 2; }
   div.product div.info { position: absolute; top: 0px; left: 0px; z-index: 1; text-align: center; background: #FFF; }
     div.product div.info a { text-decoration: none; color: #000; font-weight: bold; }

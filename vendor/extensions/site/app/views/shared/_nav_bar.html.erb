@@ -1,12 +1,25 @@
-<ul>
-<% if "products" == @current_controller && @taxon %>
-  <%= render "shared/filters" %>
+<div id="uinfo">
+<% if current_user -%>
+  <%= link_to t('my_account'), user_path(current_user) %>
+  <%= link_to t('logout'), logout_path %>
 <% else %>
-  <%= render "shared/taxonomies" %>
-<% end %>
-<%= render 'shared/search' %>
-<%= render 'shared/login_bar' %>
+  <%= link_to t('log_in'), login_path %>
+<% end -%>
 <% if store_menu? %>
-  <%= render 'shared/store_menu' %>
+  <%= link_to_cart %>
 <% end %>
-</ul>
+</div>
+<div id="navigation">
+<% @taxons = @taxon && @taxon.parent ? @taxon.parent.children : Taxon.roots  %> 
+<% form_tag products_url, :method => :get do %>
+  <%#= select_tag :taxon, 
+        options_for_select([[t(:all_departments), '']] + 
+                              @taxons.map {|t| [t.name, t.id]}, 
+                            @taxon ? @taxon.id : params[:taxon]) %>
+  <%= submit_tag t(:search), :name => nil, :id => 'searchsubmit' %>
+  <div id="ssearch"><%= text_field_tag :keywords, params[:keywords] %></div>
+<% end %>
+</div>
+
+<%#= render "shared/filters" %>
+<%#= render "shared/taxonomies" %>

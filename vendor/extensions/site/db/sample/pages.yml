@@ -1,0 +1,12 @@
+page_1:
+  title: About
+  body: "This is the about page."
+  meta_description: "This is the meta description."
+  slug: "/about"
+  created_at: <%= Time.zone.now.to_s(:db) %>
+page_2:
+  title: Spree Extensions
+  body: "This is the extension page."
+  meta_description: "This is the meta description."
+  slug: "/spree-extensions"
+  created_at: <%= Time.zone.now.to_s(:db) %>

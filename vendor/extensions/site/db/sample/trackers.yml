@@ -1,0 +1,3 @@
+tracker_1:
+  environment: development
+  analytics_id: test

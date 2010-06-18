@@ -42,21 +42,28 @@
 
   <div id="footer">
     <div class="wrapper">
-      <div id="pages">
-        list pages here
-      </div>
-      <div id="credits">
-        Maintained by <a href="http://www.endpoint.com/">End Point</a><br />
-        <%= t("powered_by") %> <a href="http://spreecommerce.com/">Spree</a>
-      </div>
-      <div id="blurb">
-      </div>
-      <div id="other">
-        <%= render 'shared/language_bar' if Spree::Config[:allow_locale_switching] %>
-      </div>
+      <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="40%" valign="top">
+            <p>This demo is meant to showcase <a href="http://www.spreecommerce.com/">Spree</a>, an open source Ruby on Rails ecommerce platform. This demo includes several Spree extensions developed by <a href="http://www.endpoint.com">End Point</a> and other members in the Spree community.</p>
+          </td>
+          <td width="20%" valign="top">
+            <p><a href="/about">About</a></p>
+            <p><a href="/spree-extensions">Spree Extensions</a></p>
+          </td>
+          <td width="20%" valign="top">
+            <%= render 'shared/language_bar' if Spree::Config[:allow_locale_switching] %>
+          </td>
+          <td valign="top">
+            <p>Maintained by <a href="http://www.endpoint.com/">End Point</a></p>
+            <p><%= t("powered_by") %> <a href="http://spreecommerce.com/">Spree</a></p>
+          </td>
+        </tr>
+      </table>
       <div class="clear"></div>
     </div>
   </div>
+  <%= javascript_include_tag 'jquery.corner.js' %>
   <%= javascript_include_tag 'spreedemo' %>
   <%= render 'shared/google_analytics' %>
 </body>

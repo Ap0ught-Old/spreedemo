@@ -19,7 +19,7 @@
           <label>Available Sizes:</label>
           <% product.variants.each do |v| -%>
             <% v.option_values.each do |ov| -%>
-              <%= ov.presentation %><br />
+              <%= ov.presentation %>, 
             <% end -%>
           <% end -%>
         </div>

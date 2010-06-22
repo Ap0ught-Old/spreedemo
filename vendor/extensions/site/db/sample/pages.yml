@@ -6,7 +6,19 @@ page_1:
   created_at: <%= Time.zone.now.to_s(:db) %>
 page_2:
   title: Spree Extensions
-  body: '<p>Spree extensions are a large part of what makes Spree a success by providing community members to contribute functionality in the form of an extension, or a custom component to attach onto the Spree core. Spree extensions are available <a href="http://ext.spreecommerce.com/">here</a>.</p><p>This Spree demo contains the following extension:</p><ul><li>active_shipping:</li><li>bucket_shipping:</li><li>ckeditor:</li><li>faq:</li><li>google_base:</li><li>product_options:</li><li>product_reviews_ratings:</li><li>quick_polls:</li><li>sitemaps:</li><li>static_content:</li></ul>'
+  body: '<p>Spree extensions are a large part of what makes Spree a success by providing community members to contribute functionality in the form of an extension, or a custom component to attach onto the Spree core. Spree extensions are available <a href="http://ext.spreecommerce.com/">here</a>.</p><p>This Spree demo contains the following extension:</p>
+<ul>
+<li><a href="http://github.com/railsdog/spree-active-shipping">active_shipping</a>: A shipping extension that integrates UPS, USPS, and Fedex live rate ship quotes.</li>
+<li><a href="http://github.com/stephp/spree-bucket-shipping">bucket_shipping</a>: A shipping extension that provides functionality to apply ship costs in a per price or per weight amount.</li>
+<li>ckeditor:</li>
+<li><a href="http://github.com/joshnuss/spree-faq">faq</a>: FAQ tool to implement in Spree.</li>
+<li><a href="http://github.com/stephp/spree-google-base">google_base</a>:</li>
+<li><a href="http://github.com/stephp/spree-product-options">product_options</a>:</li>
+<li><a href="http://github.com/stephp/spree-product-reviews-ratings">product_reviews_ratings</a>:</li>
+<li><a href="http://github.com/stephp/spree-quick-polls">quick_polls</a>:</li>
+<li><a href="http://github.com/stephp/spree-sitemaps">sitemaps</a>:</li>
+<li><a href="http://github.com/stephp/spree-static-content">static_content</a>:</li>
+</ul>'
   meta_description: "This is the meta description."
   slug: "/spree-extensions"
   created_at: <%= Time.zone.now.to_s(:db) %>

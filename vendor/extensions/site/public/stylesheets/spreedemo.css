@@ -23,7 +23,7 @@ div#footer { background: #435A53; color: #A5BBB4; clear: both; }
 
 ul#language-bar li#parent ul { display: none; margin: 0px; }
 ul#language-bar li#parent strong { color: #FFF; text-decoration: underline; }
-ul#language-bar li#parent:hover ul { display: block; }
+ul#language-bar li#parent ul { display: block; }
 ul#language-bar li#parent a { margin: 4px 2px 0px 0px; }
 
 /* Product Nav */

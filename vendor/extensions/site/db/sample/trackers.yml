@@ -1,3 +1,6 @@
 tracker_1:
   environment: development
   analytics_id: test
+tracker_2:
+  environment: production
+  analytics_id: UA-525312-13

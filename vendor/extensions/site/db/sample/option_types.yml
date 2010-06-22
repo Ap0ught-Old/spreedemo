@@ -1,6 +1,6 @@
 size:
   name: size
-  presentation: Size
-print_type:
+  presentation: PO_Size
+type:
   name: print type
-  presentation: Print Type
+  presentation: PO_Color

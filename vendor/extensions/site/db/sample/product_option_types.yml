@@ -1,0 +1,72 @@
+strawberry_leaves_size:
+  product: strawberry_leaves
+  option_type: size
+  position: 1
+strawberry_leaves_color:
+  product: strawberry_leaves
+  option_type: type
+  position: 1
+lilies_size:
+  product: lilies
+  option_type: size
+  position: 1
+lilies_color:
+  product: lilies
+  option_type: type
+  position: 1
+boat_size:
+  product: boat
+  option_type: size
+  position: 1
+boat_color:
+  product: boat
+  option_type: type
+  position: 1
+boat_graffiti_size:
+  product: boat_graffiti
+  option_type: size
+  position: 1
+boat_graffiti_color:
+  product: boat_graffiti
+  option_type: type
+  position: 1
+crochet_size:
+  product: crochet
+  option_type: size
+  position: 1
+crochet_color:
+  product: crochet
+  option_type: type
+  position: 1
+dock_decay_size:
+  product: dock_decay
+  option_type: size
+  position: 1
+dock_decay_size:
+  product: dock_decay
+  option_type: type
+  position: 1
+forty_nine_size:
+  product: forty_nine
+  option_type: size
+  position: 1
+forty_nine_color:
+  product: forty_nine
+  option_type: type
+  position: 1
+lens_flare_size:
+  product: lens_flare
+  option_type: size
+  position: 1
+lens_flare_color:
+  product: lens_flare
+  option_type: type
+  position: 1
+letter_r_size:
+  product: letter_r
+  option_type: size
+  position: 1
+letter_r_color:
+  product: letter_r
+  option_type: type
+  position: 1

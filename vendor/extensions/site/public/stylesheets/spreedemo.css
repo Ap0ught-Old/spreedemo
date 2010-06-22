@@ -33,9 +33,13 @@ div.product { float: left; border: 5px solid #FFF; position: relative; height: 1
   div.product div.info { position: absolute; top: 0px; left: 0px; z-index: 1; text-align: center; background: #FFF; }
     div.product div.info a { text-decoration: none; color: #000; font-weight: bold; }
 
-/* Product */
-div#main-image img { border: 5px solid #FFF; }
-
 /* Cart */
 div#content form { background: #FFF; padding: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
 div#content form input[type="text"], div#content form input[type="password"] { -moz-border-radius: 5px; -webkit-border-radius: 5px; border: 2px solid #D5F3EA; padding: 3px; }  
+
+/* Product */
+div#product div.left { float: left; width: 500px; }
+div#product div.right { width: 430px; float: right; }
+div#product #product-description { margin: 0px; padding: 0px; border: none; width: 100%; }
+div#main-image img { border: 5px solid #FFF; width: 490px; }
+div#product form { background: none; }

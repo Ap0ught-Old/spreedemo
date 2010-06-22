@@ -1,30 +1,29 @@
-<% @body_id = 'product-details' %>
-<h1><%= @product.name %></h1>
-
-<div id="product-images">
-  <div id="main-image">
-    <%= render 'image' -%>
+<div id="product">
+  <div class="left">
+    <div id="main-image">
+      <%= render 'image' -%>
+    </div>
+    <div id="thumbnails">
+      <%= render 'thumbnails', :product => @product -%>
+    </div>
+    <% hook :product_properties do %>
+      <%= render 'properties' %>
+    <% end %>
   </div>
-  <div id="thumbnails">
-    <%= render 'thumbnails', :product => @product -%>
+  <div class="right">
+    <h1><%= @product.name %></h1>
+    <div id="product-description">
+      <% hook :product_description do %>
+        <%= product_description(@product) rescue t("product_has_no_description") %>
+      <% end %>
+    </div>
+    <% hook :cart_form do %>
+      <div id="cart-form">
+        <%= render 'cart_form' %>
+      </div>
+    <% end %>
   </div>
+  <div class="clear"></div>
 </div>
-
-<div id="product-description">
-  <% hook :product_description do %>
-    <%= product_description(@product) rescue t("product_has_no_description") %>
-  <% end %>
-  <% hook :product_properties do %>
-    <%= render 'properties' %>
-  <% end %>
-</div>
-
-<% hook :cart_form do %>
-  <div id="cart-form">
-    <%= render 'cart_form' %>
-  </div>
-<% end %>
 
 <%= render 'taxons' %>
-
-<div class="clear"></div>

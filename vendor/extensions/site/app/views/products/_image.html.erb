@@ -1,0 +1,10 @@
+<% if image %> 
+  <%= image_tag image.attachment.url(:product) %>
+<% else %>
+  <% if @product.images.empty? -%>
+    <%= image_tag "noimage/product.jpg" %>
+  <% else -%>
+    <%= image_tag @product.images.first.attachment.url(:large) %>
+  <% end -%>
+<% end %>
+

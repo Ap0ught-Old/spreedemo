@@ -1,0 +1,90 @@
+one:
+  id: 1
+  viewable: dock_decay
+  viewable_type: Product
+  attachment_content_type: image/jpg
+  attachment_file_name: forty-nine.jpg
+  attachment_width: 1024
+  attachment_height: 683
+  type: Image
+  position: 1
+two:
+  id: 2
+  viewable: forty_nine
+  viewable_type: Product
+  attachment_content_type: image/jpg
+  attachment_file_name: forty-nine.jpg
+  attachment_width: 1024
+  attachment_height: 683
+  type: Image
+  position: 1
+three:
+  id: 3
+  viewable: boat
+  viewable_type: Product
+  attachment_content_type: image/jpg
+  attachment_file_name: boat.jpg
+  attachment_width: 1024
+  attachment_height: 683
+  type: Image
+  position: 1
+four:
+  id: 4
+  viewable: boat_graffiti
+  viewable_type: Product
+  attachment_content_type: image/jpg
+  attachment_file_name: boat-graffiti.jpg
+  attachment_width: 1024
+  attachment_height: 683
+  type: Image
+  position: 1
+five:
+  id: 5
+  viewable: crochet
+  viewable_type: Product
+  attachment_content_type: image/jpg
+  attachment_file_name: crochet.jpg
+  attachment_width: 1024
+  attachment_height: 683
+  type: Image
+  position: 1
+six:
+  id: 6
+  viewable: lens_flare
+  viewable_type: Product
+  attachment_content_type: image/jpg
+  attachment_file_name: lens_flare.jpg
+  attachment_width: 1024
+  attachment_height: 683
+  type: Image
+  position: 1
+seven:
+  id: 7
+  viewable: lilies
+  viewable_type: Product
+  attachment_content_type: image/jpg
+  attachment_file_name: lilies.jpg
+  attachment_width: 1024
+  attachment_height: 683
+  type: Image
+  position: 1
+eight:
+  id: 8
+  viewable: letter_r
+  viewable_type: Product
+  attachment_content_type: image/jpg
+  attachment_file_name: letter-r.jpg
+  attachment_width: 1024
+  attachment_height: 683
+  type: Image
+  position: 1
+nine:
+  id: 9
+  viewable: strawberry_leaves
+  viewable_type: Product
+  attachment_content_type: image/jpg
+  attachment_file_name: strawberry-leaves.jpg
+  attachment_width: 1024
+  attachment_height: 683
+  type: Image
+  position: 1

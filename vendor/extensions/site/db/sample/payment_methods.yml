@@ -1,0 +1,12 @@
+bogus_prod:
+  name: Bogus Production
+  description: Bogus payment gateway for production.
+  environment: production
+  active: true
+  type: Gateway::Bogus
+bogus_dev:
+  name: Bogus Development
+  description: Bogus payment gateway for development.
+  environment: development
+  active: true
+  type: Gateway::Bogus

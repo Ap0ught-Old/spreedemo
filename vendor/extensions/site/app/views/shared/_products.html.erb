@@ -10,9 +10,9 @@
 
 <% if products.any? %>
 <div class="product-listing">
-  <% products.each do |product| %>
+  <% products.each_with_index do |product, i| %>
     <% if Spree::Config[:show_zero_stock_products] || product.has_stock? %>
-      <div class="product" id="product_<%= product.id %>">
+      <div class="product <%= product.product_properties.detect { |p| p.value == 'portrait' }.nil? ? 'landscape' : 'portrait' %>" id="product_<%= product.id %>">
         <div class="img" id="img_<%= product.id %>"><%= link_to product_image(product), product, :class => 'image' %></div>
         <div class="info">
           <%= link_to product.name, product, :class => 'info' %><br />
@@ -25,6 +25,9 @@
         </div>
       </div>
     <% end %>
+    <% if i%4 == 3 -%>
+    <div class="clear"></div>
+    <% end -%>
   <% end %>
   <div class="clear"></div>
 </div>

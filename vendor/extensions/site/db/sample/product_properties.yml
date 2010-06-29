@@ -1,0 +1,60 @@
+p1:
+  product: tulips
+  property: orientation
+  value: portrait
+p2:
+  product: dock
+  property: orientation
+  value: portrait
+p3:
+  product: capitol_reef7
+  property: orientation
+  value: portrait
+p4:
+  product: capitol_reef3
+  property: orientation
+  value: portrait
+p5:
+  product: daffodil
+  property: orientation
+  value: portrait
+p6:
+  product: flare
+  property: orientation
+  value: portrait
+p7:
+  product: tanner_park
+  property: orientation
+  value: portrait
+p8:
+  product: arches
+  property: orientation
+  value: portrait
+p9:
+  product: capitol_reef8
+  property: orientation
+  value: portrait
+p10:
+  product: fence_growth
+  property: orientation
+  value: portrait
+p11:
+  product: bryce_canyon
+  property: orientation
+  value: portrait
+p12:
+  product: flax
+  property: orientation
+  value: portrait
+p13:
+  product: capitol_reef6
+  property: orientation
+  value: portrait
+p14:
+  product: flare2
+  property: orientation
+  value: portrait
+p15:
+  product: letter_e
+  property: orientation
+  value: portrait

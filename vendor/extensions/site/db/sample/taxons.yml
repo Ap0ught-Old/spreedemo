@@ -1,0 +1,30 @@
+root:
+  id: 1
+  name: Photos
+  taxonomy: photos
+  permalink: photos/
+  position: 0
+flowers:
+  id: 2
+  name: Flowers
+  taxonomy: photos
+  parent_id: 1
+  position: 1
+  products: lilies, african_daisy, allium, centurion, chives, crab_apple, crocus, crocus2, daffodil, daisy, dandelion, dried_flowers, flax, hyacinth, hyacinth2, iris, lily, lilies2, mum, tulips, stargazer, stargazer2, rose, rose2
+  permalink: photos/flowers/
+urban:
+  id: 3
+  name: Urban
+  taxonomy: photos
+  parent_id: 1
+  position: 2
+  products: letter_r, boat, boat_graffiti, dock_decay, forty_nine, beer, chimes, dock, dugout, fence_growth, letter_e, lizard, mildred, urban, urban2, rust
+  permalink: photos/urban/
+nature:
+  id: 4
+  name: Nature and Landscape
+  taxonomy: photos
+  parent_id: 1
+  position: 2
+  products: lens_flare, strawberry_leaves, arches, arches_sunrise, bryce_canyon, capitol_reef, capitol_reef_stripes, dead_horse, flare, flare2, leaf, capitol_reef3, capitol_reef5, capitol_reef6, capitol_reef7, capitol_reef8, capitol_reef9, tanner_park, springtime, neffs, mushroom, mushrooms
+  permalink: photos/nature-landscape/

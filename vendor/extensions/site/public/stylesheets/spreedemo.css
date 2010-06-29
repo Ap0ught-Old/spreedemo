@@ -92,15 +92,6 @@ input.title { width: auto; }
 p.follow-all { font-size: 1.3em; text-align: center; display: block; }
 p img { float: left; margin-right: 5px; vertical-align: middle; }
 
-.navigation-list { list-style: none; margin: 0 0 1.5em -15px; }
-.navigation-list li { margin: 0; }
-.navigation-list li a { cursor: pointer !important; text-decoration: none; color: #333333; display: block; line-height: 2.5em; padding-left: 20px; width: 170px; white-space: nowrap; overflow: hidden; }
-.navigation-list li a:hover { background: url(../images/menu-hover.png) right center no-repeat; }
-.navigation-list li.current { width: 200px; }
-.navigation-list li.current a { width: 180px; background: url(../images/menu-current.png) right center no-repeat; white-space: nowrap; overflow: hidden; }
-.navigation-list li.current a.root { width: 183px; }
-.navigation-list a.root { color: #222222; font-size: 1.5em; text-indent: -5px; line-height: 2.2em; }
-
 .breadcrumbs { margin-bottom: 1em; }
 .breadcrumbs ul { list-style-type: none; margin: 0px; padding: 0px; display: inline; margin: 0; padding: 0; overflow: auto; }
 .breadcrumbs ul li { margin: 0px; padding: 0px; display: inline; }
@@ -310,6 +301,15 @@ ul#language-bar li#parent ul { display: block; }
 ul#language-bar li#parent a { margin: 4px 2px 0px 0px; }
 
 /* Product Nav */
+div#taxonomies { float: right; width: 100px; margin-right: 10px; color: #000; text-align: left; }
+div#taxonomies a { color: #000; }
+ul.navigation-list { list-style-type: none; margin: 0px; }
+ul.navigation-list li.parent { background-color: #A5BBB4; -moz-border-radius: 5px; -webkit-border-radius: 5px; padding: 2px 5px; }
+ul.navigation-list ul { display: none; list-style-type: none; margin: 0px; position: relative; background-color: #A5BBB4; width: 100px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius-topright: 0px; -moz-border-radius-topleft: 0px; -webkit-border-radius-topright: 0px; -webkit-border-radius-topleft: 0px; margin-left: -5px; }
+ul.navigation-list ul li { padding-left: 5px; }
+ul.navigation-list li.parent:hover ul { display: block; position: absolute; }
+ul.navigation-list li.parent:hover { -moz-border-radius-bottomright: 0px; -moz-border-radius-bottomleft: 0px; -webkit-border-radius-bottomright: 0px; -webkit-border-radius-bottomleft: 0px; }
+
 div.product { float: left; border: 5px solid #FFF; position: relative; height: 180px; width: 270px; margin: 0px 35px 35px 0px; background: url(/images/product_bg.jpg); }
  div.product img { height: 180px; }
  div.product div.img { position: absolute; top: 0px; left: 0px; z-index: 2; }
